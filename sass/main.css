@@ -10,7 +10,8 @@ body {
 }
 
 header {
-  background-color: burlywood;
+  background-image: url(header.jpg);
+  margin-top: 0%;
 }
 
 h1 {
@@ -32,8 +33,8 @@ h1:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding: 50px 50px;
 }
 
@@ -75,21 +76,7 @@ h3 {
   color: blueviolet;
 }
 
-form {
-  color: blue;
-}
 
-.formu {
-  color: cornflowerblue;
-}
-
-.limpiar {
-  color: cyan;
-}
-
-.enviar {
-  color: cyan;
-}
 
 .menu {
   display: inline;
